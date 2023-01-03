@@ -38,7 +38,7 @@ html {
     transition: 0.2s;
 }
 
-.card-img img:hover{
+.card-img img:hover {
     scale: 1.1;
     transform: rotate(4deg);
 }
@@ -109,19 +109,16 @@ a:hover {
     background-color: #1a4031;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     .card {
         display: grid;
         grid-template-columns: 100%;
-        width: 400px;
+        width: 350px;
         height: 700px;
+        grid-template-rows: 45% 55%;
     }
 
-    .card-img img{
+    .card-img img {
         width: 400px;
-    }
-    
-    .card-info{
-        height: 350px;
     }
 }
