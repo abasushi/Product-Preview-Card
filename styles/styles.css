@@ -112,12 +112,16 @@ a:hover {
 @media only screen and (max-width: 768px){
     .card {
         display: grid;
-        grid-template-rows: 1fr;
+        grid-template-columns: 100%;
         width: 400px;
         height: 700px;
     }
 
     .card-img img{
         width: 400px;
+    }
+    
+    .card-info{
+        height: 350px;
     }
 }
